@@ -1,0 +1,9 @@
+model,cv_roc_auc,cv_pr_auc,cv_brier,best_params
+Random forest,0.8461562167516601,0.6637928446904097,0.1557207751888327,"{""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 12}"
+Ridge logistic,0.8440452256039078,0.6584429223863459,0.1660652669120519,"{""classifier__C"": 5.0}"
+LASSO logistic,0.8437832810968612,0.6592716960081937,0.16615522041919384,"{""classifier__C"": 2.0}"
+Neural network,0.8424752848547424,0.6592309808632585,0.13617667193158883,"{""classifier__alpha"": 0.001, ""classifier__hidden_layer_sizes"": [32]}"
+Histogram gradient boosting,0.8424390048558955,0.6653557293448938,0.1582538997861787,"{""classifier__learning_rate"": 0.04, ""classifier__max_leaf_nodes"": 15}"
+RBF support vector machine,0.8391057801665628,0.6568226660554327,0.14126283435757617,"{""classifier__C"": 0.5, ""classifier__gamma"": 0.02}"
+k-nearest neighbors,0.8353802873049648,0.6323205144753847,0.14092795708583788,"{""classifier__n_neighbors"": 75, ""classifier__weights"": ""uniform""}"
+Dummy baseline,0.5,0.2654296035090737,0.19497679435708776,{}
